@@ -1,0 +1,5 @@
+pip list
+pip show
+pip uninstall numpy
+pip install numpy
+pip list | tail -n+3 | sed 's/  */ == /g' > requirements.txt
